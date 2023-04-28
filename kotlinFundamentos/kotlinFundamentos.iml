@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/0_practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/a_variaveis_constantes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/teste.kt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/teste2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/2_conversoes_manipulacoes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/2_manipulacoes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/3_operadores" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/4_controleDeFluxo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/4_loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/5_tratamentoNulos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/1_variaveis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/6_listas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/7_loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/8_funcoes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/9_desafio" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+  </component>
+</module>
