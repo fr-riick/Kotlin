@@ -1,11 +1,12 @@
 fun main() {
-    println(somar(y = 7, x = 4))
+    println(somar(y = 7))
     println(sub(5))
     val result = funcaoQueRecebeFuncao(3) { a -> 5 * a } // usei uma função lambda, é tipo uma func anonima
     println(result)
 }
 
-// se um parametro tiver valor default é necessario colocar os parametros restantes nomeados quando chamar a funçao
+// se um parametro tiver valor default e não for o ultimo parametro é necessário colocar os parametros restantes
+// nomeados quando chamar a funçao
 fun somar(x: Int = 5, y: Int): Int{
     return x + y
 }
