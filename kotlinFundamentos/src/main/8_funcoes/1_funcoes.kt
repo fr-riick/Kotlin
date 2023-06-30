@@ -1,8 +1,17 @@
 fun main() {
     println(somar(y = 7))
     println(sub(5))
+
     val result = funcaoQueRecebeFuncao(3) { a -> 5 * a } // usei uma função lambda, é tipo uma func anonima
     println(result)
+
+    // se quiser passar outra função ja criada como parametro precisa colocar dois pontos duas vezes e o nome da fun
+    val result2 = funcaoQueRecebeFuncao(5, ::elevadoADois)
+    println(result2)
+}
+
+fun elevadoADois(x: Int): Int{
+    return x * x
 }
 
 // se um parametro tiver valor default e não for o ultimo parametro é necessário colocar os parametros restantes

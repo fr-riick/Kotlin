@@ -49,6 +49,15 @@ fun main() {
     nomes.removeAt(1)
     println(nomes)
 
+    // Método filter e filterNot
+    // filtra os elementos da lista
+    val a = listOf(1, 2, 5, 6, 7)
+    val filtred = a.filter { it > 3 }
+    println(filtred)
+
+    // filtra os que não estão na regra de negócio
+    val filtredNot = a.filterNot { it > 3 }
+    println(filtredNot)
 
 
 

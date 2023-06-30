@@ -15,4 +15,20 @@ fun main() {
     // exemplo:
 
     if (1==1) println("é igual") else println("é diferente")
+
+
+
+    // Você pode usar o if e else para retornar um resultado para uma variavel
+
+    val card = "Visa"
+
+    val discount = if(card == "Visa"){
+        "Desconto de 10%"
+    } else if(card == "Master"){
+        "desconto de 20%"
+    } else {
+        "Desconto não aplicado"
+    }
+
+    println(discount)
 }

@@ -14,4 +14,13 @@ fun main() {
             print("não conhecido")
         }
     }
+
+    // when tbm da pra retornar um resultado para uma variavel
+
+    val number = 10
+    val numberSize = when (number) {
+        in 1 .. 5 -> "Menor ou igual a 5"
+        else -> "Maior que 5"
+    }
+    println(numberSize)
 }
